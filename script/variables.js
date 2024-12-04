@@ -42,7 +42,6 @@ fetch("/seoulchildrensgrandpark_Portfolio/include/header.html")
     let click_here_01 = document.getElementById('click-here-01');
     let click_here_02 = document.getElementById('click-here-02');
     let click_here_03 = document.getElementById('click-here-03');
-    console.log(click_here_01,click_here_02,click_here_03);
     let header_gnb_main = document.querySelector('header');
     header_gnb_main.addEventListener('mouseenter',function(){
       click_here_01.style.opacity = '0';
@@ -63,9 +62,6 @@ fetch("/seoulchildrensgrandpark_Portfolio/include/header.html")
     let searchbutton = document.getElementById('search-icon');
     let header_wrap = document.querySelector('.header-wrap');
     let join_btn = document.getElementById('topmenu-join-btn');
-
-    // 각 요소가 정상적으로 선택되었는지 확인
-    console.log(searchbutton, header_search, header_top, header_main, closeSearchButton,header_wrap);
 
     //이거는 로그인 모달쪽입니다
     let login_close = document.getElementById('login-modal-close-btn');
