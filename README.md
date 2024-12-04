@@ -2,6 +2,18 @@
 
 ## 🖥 작업자 : 김해진(Haejin Kim), 전채아(Chae A JEON), 허정(Jung Heo)
 
+## 🔗 링크
+
+- [기획서](https://docs.google.com/presentation/d/1pmJptcZsWlLEphwVw2obZGBz_grAipNdWB9w9HviTvc/edit?usp=sharing)
+  
+- [브레인 스토밍](https://www.figma.com/board/YwGAh67QL2OPWP0pXqwxxS/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%84%9C%EC%9A%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90)?node-id=0-1&t=zGCwKMup21zq7Wgv-1)
+
+- [와이어프레임](https://www.figma.com/design/G3W8cO6RJMAjprxWiUpE6K/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%84%9C%EC%9A%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90)?node-id=31-4&t=eNmlJEUuJL8BHIst-1)
+
+- [디자인](https://www.figma.com/design/G3W8cO6RJMAjprxWiUpE6K/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%84%9C%EC%9A%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90)?node-id=16-2&t=eNmlJEUuJL8BHIst-1)
+
+- [DEMO](https://myjin0806.github.io/seoulchildrensgrandpark_Portfolio/)
+
 ## 📅 제작 기간
  - 기획: 3일 (2024년 10월 29일 ~ 2024년 10월 31일)<br>
  하루 4시간씩 진행<br>
@@ -179,14 +191,3 @@ Footer는 웹사이트의 하단에 위치하며, 관련된 중요한 링크와 
 
 <br>
 
-## 🔗 링크
-
-- [기획서](https://docs.google.com/presentation/d/1pmJptcZsWlLEphwVw2obZGBz_grAipNdWB9w9HviTvc/edit?usp=sharing)
-  
-- [브레인 스토밍](https://www.figma.com/board/YwGAh67QL2OPWP0pXqwxxS/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%84%9C%EC%9A%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90)?node-id=0-1&t=zGCwKMup21zq7Wgv-1)
-
-- [와이어프레임](https://www.figma.com/design/G3W8cO6RJMAjprxWiUpE6K/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%84%9C%EC%9A%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90)?node-id=31-4&t=eNmlJEUuJL8BHIst-1)
-
-- [디자인](https://www.figma.com/design/G3W8cO6RJMAjprxWiUpE6K/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%84%9C%EC%9A%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90)?node-id=16-2&t=eNmlJEUuJL8BHIst-1)
-
-- [DEMO](https://myjin0806.github.io/seoulchildrensgrandpark_Portfolio/)
