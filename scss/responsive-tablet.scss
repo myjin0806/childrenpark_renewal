@@ -53,9 +53,6 @@
       width: 90vw;
       padding: 0 4vw;
       .directions-top{
-        #map{
-          height: 360px;
-        }
         .text{
           .place{
             margin-left: 2vw;
@@ -1454,6 +1451,9 @@
           letter-spacing: -7px;
         }
       }
+    }
+    .main-popup{
+      display: none;
     }
     .today-info{
       .waether{ 

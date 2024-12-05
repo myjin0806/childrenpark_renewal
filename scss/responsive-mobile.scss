@@ -93,6 +93,9 @@
     .main-visual-inner{
       .main-popup{
         display: none;
+        top: 25%;
+        z-index: 99;
+        right: 3%;
       }
     }
   }
@@ -848,9 +851,6 @@
   .directions{
     .directions-inner{
       .directions-top{
-        #map{
-          height: 300px;
-        }
         .text{
           display: flex;
           flex-direction: column;
