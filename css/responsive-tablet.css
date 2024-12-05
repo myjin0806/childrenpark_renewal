@@ -88,6 +88,9 @@ li {
     width: 90vw;
     padding: 0 4vw;
   }
+  .directions .directions-inner .directions-top #map {
+    height: 360px;
+  }
   .directions .directions-inner .directions-top .text .place {
     margin-left: 2vw;
   }
