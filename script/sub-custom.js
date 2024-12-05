@@ -116,38 +116,14 @@ function scrollToSection(index) {
   }, 800);
 }
 
-/* #### directions.html #### */
-// 카카오 지도 API를 비동기적으로 로드하는 스크립트
-var script = document.createElement('script');
-script.src = "//dapi.kakao.com/v2/maps/sdk.js?appkey=7560344f7149ee3ecede4f1d58649e54&autoload=false";
-script.async = true; // 비동기 로드
-script.onload = function() {
-    // 스크립트 로드가 완료되면 지도 생성 및 기타 작업을 수행
-    initializeMap();
-};
-document.head.appendChild(script);
-
-// 지도 초기화 함수
-function initializeMap() {
-    // 지도를 표시할 div와 기본 옵션 설정
-    var mapContainer = document.getElementById('map'); // 지도를 표시할 div 
-    var mapOption = {
-        center: new kakao.maps.LatLng(37.55146818894127, 127.0837919213508), // 지도의 중심 좌표
-        level: 3 // 지도의 확대 레벨
-    };
-
-    // 지도를 생성
-    var map = new kakao.maps.Map(mapContainer, mapOption);
-
-    // 지도에 마커를 표시할 예제
-    var marker = new kakao.maps.Marker({
-        position: map.getCenter() // 지도 중심에 마커 위치 지정
-    });
-    marker.setMap(map);
-}
-
-//탭기능 구현
+// /* #### directions.html #### */
+// //지도 구현
 document.addEventListener('DOMContentLoaded', function() {
+  /* #### directions.html #### */
+  //지도 구현
+  
+
+  //탭기능 구현
   const tabs = document.querySelectorAll('.tab-button');
   const tabContents = document.querySelectorAll('.tab-pane');
 

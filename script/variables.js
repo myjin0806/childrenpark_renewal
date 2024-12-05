@@ -42,6 +42,7 @@ fetch("/seoulchildrensgrandpark_Portfolio/include/header.html")
     let click_here_01 = document.getElementById('click-here-01');
     let click_here_02 = document.getElementById('click-here-02');
     let click_here_03 = document.getElementById('click-here-03');
+    console.log(click_here_01,click_here_02,click_here_03);
     let header_gnb_main = document.querySelector('header');
     header_gnb_main.addEventListener('mouseenter',function(){
       click_here_01.style.opacity = '0';
@@ -62,6 +63,9 @@ fetch("/seoulchildrensgrandpark_Portfolio/include/header.html")
     let searchbutton = document.getElementById('search-icon');
     let header_wrap = document.querySelector('.header-wrap');
     let join_btn = document.getElementById('topmenu-join-btn');
+
+    // 각 요소가 정상적으로 선택되었는지 확인
+    console.log(searchbutton, header_search, header_top, header_main, closeSearchButton,header_wrap);
 
     //이거는 로그인 모달쪽입니다
     let login_close = document.getElementById('login-modal-close-btn');
@@ -334,10 +338,15 @@ fetch("/seoulchildrensgrandpark_Portfolio/include/quick-menu.html")
   // HTML 삽입 후 이벤트 리스너 추가
   let quickbar = document.getElementById('menu-item');
   let quickmenu = document.querySelector('.open-quick-menu');
+
+  console.log("사이드메뉴 확인");  // 스크립트 로드 확인
+  console.log(quickbar, quickmenu); // quickbar와 quickmenu 선택 확인
   
   if (quickbar && quickmenu) {
     quickbar.addEventListener('click', function () {
+      console.log("quickbar clicked"); // 클릭 확인
       quickmenu.classList.toggle('active'); // active 클래스 토글
+      console.log('Active class toggled:', quickmenu.classList.contains('active')); // active 클래스 확인
     });
   } else {
     console.log('Quick menu or quickbar not found.');
@@ -411,6 +420,7 @@ fetch("/seoulchildrensgrandpark_Portfolio/include/go-to-top.html")
   const fox = document.querySelector('#go-to-top-fox .fox');
   const foxText = document.querySelector('#go-to-top-fox span');
   const foxBubble = document.querySelector('#go-to-top-fox .bubble');
+  console.log(fox, foxBubble, foxText)
 
   // 고투탑 버튼 hover 효과
   fox.addEventListener('mouseover', () => {
