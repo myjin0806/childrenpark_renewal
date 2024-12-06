@@ -487,6 +487,7 @@ header .header-side-menu {
   height: 100vh; /* 전체 높이를 화면에 맞게 설정 */
 }
 header .header-side-menu .side-menu-wrap {
+  display: none;
   position: fixed;
   top: 170px;
   right: 0; /* 오른쪽으로 고정 */

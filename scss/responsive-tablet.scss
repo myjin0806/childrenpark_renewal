@@ -1297,6 +1297,7 @@
     .header-side-menu{
       top: 160px;
       .side-menu-wrap{
+        display: block;
         top: 160px;
       }
     }
@@ -1872,7 +1873,7 @@
     .rides-container{
       width: 100%;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 47px;
       padding: 80px 0;
       .ride-item{
