@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* Import Local Scss Files */ /* Font Family */
+/* Import Local Scss Files */
+/* Font Family */
 /* Setting Variables : Text Color */
 /* Setting Variables : Object Color */
 /* box-shadow */
@@ -600,6 +601,10 @@ li {
   }
   .attraction-inner .rides-container .ride-item:nth-child(-n+9) {
     display: block;
+  }
+  .attraction-inner .rides-container .ride-item img:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   .attraction-inner .readmore {
     width: 280px;

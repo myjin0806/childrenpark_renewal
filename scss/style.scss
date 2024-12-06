@@ -2849,16 +2849,16 @@ height: 100vh;
           z-index: -1;
           border-radius: 20px 60px 0 0;
         }
-      }
-      img{
-        width: 380px;
-        height: 410px;
-        border-radius: 21px 61px 21px 61px;
-        display: block;
-        transition: transform 0.3s ease;
-        object-position: center;
-        &:hover{
-          transform: scale(1.1);
+        img{
+          width: 380px;
+          height: 410px;
+          border-radius: 21px 61px 21px 61px;
+          display: block;
+          transition: transform 0.3s ease;
+          object-position: center;
+          &:hover{
+            transform: scale(1.1);
+          }
         }
       }
     }

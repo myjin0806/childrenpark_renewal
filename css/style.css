@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* Import Local Scss Files */ /* Font Family */
+/* Import Local Scss Files */
+/* Font Family */
 /* Setting Variables : Text Color */
 /* Setting Variables : Object Color */
 /* box-shadow */
@@ -3837,7 +3838,7 @@ body {
   z-index: -1;
   border-radius: 20px 60px 0 0;
 }
-.attraction-inner .rides-container .ride-item img {
+.attraction-inner .rides-container .ride-item .ride-explanation img {
   width: 380px;
   height: 410px;
   border-radius: 21px 61px 21px 61px;
@@ -3849,7 +3850,7 @@ body {
   -o-object-position: center;
      object-position: center;
 }
-.attraction-inner .rides-container .ride-item img:hover {
+.attraction-inner .rides-container .ride-item .ride-explanation img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

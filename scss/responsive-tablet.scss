@@ -609,6 +609,11 @@
         &:nth-child(-n+9) {
           display: block;
         }
+        img{
+          &:hover{
+            transform: scale(1);
+          }
+        }
       }
     }
     .readmore{
