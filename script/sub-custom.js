@@ -82,10 +82,44 @@ resetButton.addEventListener('click', function() {
   });
 });
 
+const goToTop = document.getElementById('go-to-top-fox');
+const fox = document.querySelector('#go-to-top-fox .fox');
+const foxText = document.querySelector('#go-to-top-fox span');
+const foxBubble = document.querySelector('#go-to-top-fox .bubble');
+
+// 고투탑 버튼 hover 효과
+fox.addEventListener('mouseover', () => {
+  foxText.style.opacity = '1';
+  foxBubble.style.opacity = '1';
+});
+
+fox.addEventListener('mouseleave', () => {
+  foxText.style.opacity = '0';
+  foxBubble.style.opacity = '0';
+});
+
+// 고투탑 버튼 클릭
+goToTop.addEventListener('click', (event) => {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  currentSection = 0;
+  Scrolling = false;
+});
+// 특정 섹션으로 스크롤
+function scrollToSection(index) {
+  if (index < 0 || index >= sections.length || Scrolling || isScrollLocked ) return; // 메뉴 열림 상태 추가
+  Scrolling = true;
+  window.scrollTo({ top: sections[index].offsetTop, behavior: 'smooth' });
+  setTimeout(() => {
+    Scrolling = false;
+    currentSection = index;
+  }, 800);
+}
+
 /* #### directions.html #### */
 //지도 구현
-var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-    mapOption = { 
+var mapContainer = document.getElementById('map'); // 지도를 표시할 div 
+var mapOption = { 
         center: new kakao.maps.LatLng(37.55146818894127, 127.0837919213508), // 지도의 중심좌표
         level: 2 // 지도의 확대 레벨
     };
