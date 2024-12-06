@@ -186,7 +186,7 @@ if (document.querySelector('.reserve')) {
   document.querySelector('.reserve').addEventListener('click', () => {
     const isSaved = saveToLocalStorage(); // 저장 시도
     if (isSaved) {
-      window.location.href = '/html/ticket-cart.html'; // 장바구니 페이지로 이동
+      window.location.href = '/seoulchildrensgrandpark_Portfolio/html/ticket-cart.html'; // 장바구니 페이지로 이동
     }
   });
 }
@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <input class="cart-chk" type="checkbox" checked>
               </div>
               <div class="thum">
-                <img src="/images/subpage_06_ticket_cart/thum-${ticketType}.jpg" alt="${ticketType} 썸네일">
+                <img src="/seoulchildrensgrandpark_Portfolio/images/subpage_06_ticket_cart/thum-${ticketType}.jpg" alt="${ticketType} 썸네일">
               </div>
               <div class="cart-overview">
                 <div class="cart-overview-header">
