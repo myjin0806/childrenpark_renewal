@@ -4036,7 +4036,7 @@ height: 100vh;
               background-size: cover;
               position: absolute;
               top: 50%;
-              right: 20px;
+              right: 0px;
               transform: translateY(-50%);
               transition: .3s;
             }
@@ -4084,6 +4084,7 @@ height: 100vh;
               }
             }
             .option-total{
+              flex-wrap: wrap;
               width: 100%;
               height: 44px;
               border-radius: 10px;
