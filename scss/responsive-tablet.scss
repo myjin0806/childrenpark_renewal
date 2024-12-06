@@ -1819,6 +1819,9 @@
           flex-direction: column;
           overflow: hidden;
           .top-options-wrap{
+            width: 100%;
+            padding: 0 16px;
+            gap: 30px;
             display: block;
             justify-content: center;
             align-items: center;
