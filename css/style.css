@@ -492,7 +492,7 @@ header .header-side-menu .side-menu-wrap {
   right: 0; /* 오른쪽으로 고정 */
   transform: translateX(100%); /* 메뉴가 화면 밖에 위치 */
   background-color: #ffffff;
-  width: 480px;
+  width: 90%;
   max-height: 70vh;
   height: auto; /* 최대 높이를 화면 높이로 제한 */
   overflow-y: scroll; /* 내용이 많을 경우 스크롤 */
@@ -517,8 +517,12 @@ header .header-side-menu .side-menu-wrap .top-icons {
 }
 header .header-side-menu .side-menu-wrap .top-icons .top-icon {
   width: 100px;
-  text-align: center;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   cursor: pointer;
   border-radius: 12px;
   margin: 0 auto;
@@ -569,7 +573,7 @@ header .header-side-menu .side-menu-wrap .top-icons #mypage-top-icon h5, header 
   font-weight: bold;
 }
 header .header-side-menu .side-menu-wrap .side-search-wrap {
-  margin: 35px 0px;
+  margin: 26px 0px;
   display: none;
   gap: 10px;
   align-items: center;
@@ -612,7 +616,7 @@ header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title {
   display: flex;
   align-items: center;
   height: 70px;
-  width: 450px;
+  width: 93%;
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
