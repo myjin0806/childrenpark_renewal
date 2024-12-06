@@ -439,7 +439,7 @@ header{
         right: 0; /* 오른쪽으로 고정 */
         transform: translateX(100%); /* 메뉴가 화면 밖에 위치 */
         background-color: $white;
-        width: 90%;
+        width: 480px;
         max-height: 70vh;
         height: auto; /* 최대 높이를 화면 높이로 제한 */
         overflow-y: scroll; /* 내용이 많을 경우 스크롤 */
