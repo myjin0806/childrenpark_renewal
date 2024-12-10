@@ -634,7 +634,7 @@ header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title:la
   border-bottom: none;
 }
 header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title img {
-  margin-right: 50px;
+  margin-right: 100px;
 }
 header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title.active {
   color: #85B214;
