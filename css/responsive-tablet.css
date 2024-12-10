@@ -1191,6 +1191,9 @@ li {
     height: 40px;
     line-height: 40px;
   }
+  .breadcrumb-wrap .breadcrumb > li .depth li a {
+    font-size: 14px;
+  }
   /* quick menu */
   .quick-menu {
     display: none;

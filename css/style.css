@@ -1046,7 +1046,7 @@ header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-in .nav-
   border-bottom: 1px solid #779302;
 }
 .breadcrumb-wrap .breadcrumb > li .depth li a {
-  font-size: 20px;
+  font-size: 18px;
 }
 .breadcrumb-wrap .breadcrumb > li .depth li:last-child {
   border-radius: 0 0 20px 20px;
